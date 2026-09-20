@@ -17,7 +17,7 @@ export default function Animation({ children, id }) {
       initial={{ opacity: 0, y: 50 }}
       animate={isInView ? { opacity: 1, y: 0 } : {}}
       transition={{ duration: 0.8, ease: "easeOut" }}
-      className="py-16 relative"
+        className="relative"
     >
       {children}
     </motion.section>
