@@ -31,7 +31,7 @@ export default function About() {
               {/* Image container */}
               <div className="relative bg-gradient-to-br from-slate-800 to-slate-900 p-2 rounded-xl">
                 <img 
-                  src="https://www.dropbox.com/scl/fi/n3lnf961zk4enn3mxtplx/photo3.jpg?rlkey=9mouwdjb0uk4jijiasqvhpnpt&st=3ocqu113&raw=1" 
+                  src="/photo.jpg" 
                   alt="Abdelrahman" 
                   className="rounded-lg shadow-2xl w-full relative transform group-hover:scale-105 transition-transform duration-500" 
                 />
@@ -51,41 +51,38 @@ export default function About() {
           <div className="lg:w-3/5">
             <div className="space-y-6">
               <h3 className="text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">
-                Where 
-                <span className="bg-gradient-to-r from-purple-400 to-cyan-400 bg-clip-text text-transparent"> AI </span>
-                Meets the 
-                <span className="bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent"> Web</span>
+                Full Stack 
+                <span className="bg-gradient-to-r from-purple-400 to-cyan-400 bg-clip-text text-transparent"> Web Developer</span>
               </h3>
               
               <div className="space-y-4 text-gray-300 text-lg leading-relaxed">
                 <p className="transform hover:translate-x-2 transition-transform duration-300">
-                  I am a dedicated and versatile professional with expertise in 
-                  <span className="text-purple-400 font-semibold"> data science</span>, 
-                  <span className="text-cyan-400 font-semibold"> machine learning</span> and 
-                  <span className="text-purple-400 font-semibold"> web development</span>. 
-                  With a strong foundation in both theoretical concepts and practical skills, I combine hands-on experience with modern technologies to develop innovative solutions.
+                  I'm a 
+                  <span className="text-purple-400 font-semibold"> Full Stack Web Developer</span> specializing in building modern, scalable, and user focused web applications from frontend to backend.
                 </p>
                 
                 <p className="transform hover:translate-x-2 transition-transform duration-300">
-                  I've built intelligent solutions such as 
-                  <span className="text-cyan-400 font-medium"> recommendation systems</span>, 
-                  <span className="text-purple-400 font-medium"> market analysis</span> and 
-                  <span className="text-cyan-400 font-medium"> forecasting tools</span>, 
-                  <span className="text-purple-400 font-medium"> healthcare prediction applications</span>, and 
-                  <span className="text-cyan-400 font-medium"> mental health analysis models</span>.
+                  My primary focus is on 
+                  <span className="text-cyan-400 font-semibold"> React.js, Next.js, TypeScript, Node.js, Express.js, MongoDB and SQL</span>, with experience building RESTful APIs, secure authentication systems, real-time applications, dashboards, payment integrations, and responsive user interfaces.
                 </p>
                 
                 <p className="transform hover:translate-x-2 transition-transform duration-300">
-                  But I don't stop at building the backend logic — I bring these systems to life by developing 
-                  <span className="text-purple-400 font-medium"> user-friendly web applications</span> that allow users to interact with them seamlessly.
+                  I enjoy turning ideas into complete products from designing intuitive interfaces and managing application state to building robust backend architectures, databases, and APIs behind them.
                 </p>
                 
                 <p className="transform hover:translate-x-2 transition-transform duration-300">
-                  My projects are designed to be 
-                  <span className="text-cyan-400 font-medium"> intuitive</span>, 
-                  <span className="text-purple-400 font-medium"> responsive</span>, and 
-                  <span className="text-cyan-400 font-medium"> visually appealing</span>, 
-                  ensuring a smooth and engaging user experience from start to finish.
+                  I've worked on a variety of full stack applications, including a 
+                  <span className="text-purple-400 font-medium"> production system currently used by the Faculty of Science at Alexandria University</span>, as well as platforms for college management, event management, and streaming experiences.
+                </p>
+
+                <p className="transform hover:translate-x-2 transition-transform duration-300">
+                  What makes my background different is my experience beyond traditional web development. With a strong foundation in 
+                  <span className="text-cyan-400 font-semibold"> Machine Learning, Deep Learning, and NLP</span>, along with multiple projects and certifications in these areas, I can integrate AI powered features directly into modern web applications.
+                </p>
+
+                <p className="transform hover:translate-x-2 transition-transform duration-300">
+                  From intelligent recommendations and chatbots to text summarization and NLP based systems, I enjoy combining 
+                  <span className="text-purple-400 font-semibold"> web development and AI</span> to build applications that are not only functional and scalable, but also smarter and more engaging.
                 </p>
               </div>
               
@@ -100,7 +97,7 @@ export default function About() {
                   <div className="text-sm text-gray-400">CGPA</div>
                 </div>
                 <div className="text-center group">
-                  <div className="text-3xl font-bold text-purple-400 group-hover:scale-110 transition-transform">2+</div>
+                  <div className="text-3xl font-bold text-purple-400 group-hover:scale-110 transition-transform">1+</div>
                   <div className="text-sm text-gray-400">Years Experience</div>
                 </div>
               </div>

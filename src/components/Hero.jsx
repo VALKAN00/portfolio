@@ -29,9 +29,9 @@ export default function Hero() {
           
           {/* Profile Image */}
           <motion.img
-            src="https://www.dropbox.com/scl/fi/n3lnf961zk4enn3mxtplx/photo3.jpg?rlkey=9mouwdjb0uk4jijiasqvhpnpt&st=3ocqu113&raw=1"
+            src="/photo.jpg"
             alt="Abdelrhman Ahmed"
-            className="relative w-48 h-48 rounded-full mx-auto border-4 border-white/20 shadow-2xl shadow-purple-500/30 hover:border-purple-400/50 transition-all duration-500"
+            className="relative w-48 h-48 object-cover object-[center_25%] rounded-full mx-auto border-4 border-white/20 shadow-2xl shadow-purple-500/30 hover:border-purple-400/50 transition-all duration-500"
             initial={{ scale: 0, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 0.8, type: "spring", stiffness: 100 }}
@@ -63,11 +63,8 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.5 }}
         >
-          <div className="text-xl md:text-3xl font-medium min-h-[60px] md:min-h-[80px] flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-3">
-            <span className="text-gray-300">I'm a</span>
-            <span className="text-purple-400 font-bold min-w-[200px] text-center">
-              <TypeEffect />
-            </span>
+          <div className="w-full max-w-6xl mx-auto text-base sm:text-xl md:text-2xl xl:text-3xl font-medium min-h-[60px] md:min-h-[80px] flex flex-row flex-wrap items-center justify-center gap-x-2 sm:gap-x-3 gap-y-1">
+            <TypeEffect />
           </div>
         </motion.div>
 

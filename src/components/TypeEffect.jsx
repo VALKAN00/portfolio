@@ -1,13 +1,14 @@
 import React, { useState, useEffect } from "react";
 
+const words = [
+  "Full Stack Developer",
+  "React • Next.js • Node.js • Express.js • MongoDB • SQL | AI & Machine Learning",
+];
+
 export default function TypeEffect() {
   const [text, setText] = useState("");
   const [isDeleting, setIsDeleting] = useState(false);
   const [wordIndex, setWordIndex] = useState(0);
-  const words = [
-    "Data Scientist",
-    "Web Developer",
-  ];
 
   useEffect(() => {
     const type = () => {
@@ -40,7 +41,13 @@ export default function TypeEffect() {
   }, [text, isDeleting, wordIndex]); // This effect runs whenever these state variables change
 
   return (
-    // The span with a pulsing border creates the cursor effect
-    <span className="border-r-2 border-purple-500 animate-pulse">{text}</span>
+    <>
+      {wordIndex === 0 && (
+        <span className="text-gray-300 whitespace-nowrap">I'm a</span>
+      )}
+      <span className="text-purple-400 font-bold whitespace-nowrap text-center border-r-2 border-purple-500 animate-pulse">
+        {text}
+      </span>
+    </>
   );
 }

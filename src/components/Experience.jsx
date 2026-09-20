@@ -4,36 +4,21 @@ import { motion } from "framer-motion";
 export default function Experience() {
   const experiences = [
     {
-      title: "Natural Language Processing (NLP) Summer Training",
-      company: "National Telecommunication Institute (NTI)",
+      title: "Full-Stack (MERN) Summer Training",
+      company: "MAIM Digital Solutions - FCDS Summer Training",
       location: "Online, Egypt",
-      period: "Jul 2025 – Aug 2025",
+      period: "Jul 2025 - Sep 2025",
       description: [
-        "Completed 120 hours of training with a final score of 95.5%.",
-        "Gained hands-on experience in text preprocessing, similarity, classification, semantic analysis, speech-based applications, RAG, and fine-tuning LLMs.",
-        "Applied NLP techniques through multiple real-world projects.",
+        "Completed a full-stack MERN (MongoDB, Express.js, React, Node.js) training program, building end-to-end web applications spanning React front ends and Express.js/MongoDB back ends.",
       ],
-      tags: ["NLP", "LLMs", "Text Processing", "Classification", "RAG"],
-      current: false,
-    },
-    {
-      title: "Data Science Intern",
-      company: "Digital Egypt Pioneers Initiative (DEPI) – IBM",
-      location: "Alexandria, Egypt",
-      period: "Oct 2024 – May 2025",
-      description: [
-        "Completed IBM's Data Science Professional Certificate.",
-        "Applied data science methodologies across real-world projects.",
-        "Gained experience in Python, SQL, data analysis, visualization, machine learning, and MLOps.",
-      ],
-      tags: ["Python", "SQL", "Machine Learning", "Data Analysis", "MLOps"],
+      tags: ["MongoDB", "Express.js", "React", "Node.js", "MERN"],
       current: false,
     },
     {
       title: "Front-End Development Training",
       company: "Faculty of Computers and Data Science",
       location: "Alexandria, Egypt",
-      period: "Jul 2024 – Aug 2024",
+      period: "Jul 2024 - Aug 2024",
       description: [
         "Trained in modern front-end technologies: HTML, CSS, Bootstrap, JavaScript, and ReactJS.",
       ],
@@ -44,12 +29,38 @@ export default function Experience() {
       title: "Full-Stack Web Development Intern",
       company: "ITSquare",
       location: "Alexandria, Egypt",
-      period: "Jan 2024 – Feb 2024",
+      period: "Jan 2024 - Feb 2024",
       description: [
         "Participated in the development and maintenance of web applications.",
         "Gained hands-on experience with full-stack technologies such as React, Flask, and MongoDB.",
       ],
       tags: ["React", "Flask", "MongoDB", "Full-Stack"],
+      current: false,
+    },
+    {
+      title: "Natural Language Processing (NLP) Summer Training",
+      company: "National Telecommunication Institute (NTI)",
+      location: "Online, Egypt",
+      period: "Jul 2025 - Aug 2025",
+      description: [
+        "Completed 120 hours of training with a final score of 95.5%.",
+        "Gained hands-on experience in text preprocessing, similarity, classification, semantic analysis, speech-based applications, RAG, and fine-tuning LLMs.",
+        "Applied NLP techniques through multiple real-world projects.",
+      ],
+      tags: ["NLP", "LLMs", "Text Processing", "Classification", "RAG"],
+      current: false,
+    },
+    {
+      title: "Data Science Intern",
+      company: "Digital Egypt Pioneers Initiative (DEPI) - IBM",
+      location: "Alexandria, Egypt",
+      period: "Oct 2024 - May 2025",
+      description: [
+        "Completed IBM's Data Science Professional Certificate.",
+        "Applied data science methodologies across real-world projects.",
+        "Gained experience in Python, SQL, data analysis, visualization, machine learning, and MLOps.",
+      ],
+      tags: ["Python", "SQL", "Machine Learning", "Data Analysis", "MLOps"],
       current: false,
     },
   ];

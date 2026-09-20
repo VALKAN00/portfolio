@@ -5,6 +5,15 @@ import { X, ExternalLink } from "lucide-react";
 export default function Certificates() {
   const certificates = [
     {
+      title: "Full-Stack (MERN) Summer Training",
+      issuer: "MAIM Digital Solutions - FCDS Summer Training",
+      image: "/certificates/Maim-mern-certificate.png",
+      description:
+        "Completed a full-stack MERN (MongoDB, Express.js, React, Node.js) training program, building end-to-end web applications spanning React front ends and Express.js/MongoDB back ends.",
+      tags: ["MongoDB", "Express.js", "React", "Node.js", "MERN"],
+      date: "Sep 2025",
+    },
+    {
       title: "Data Science Professional Certificate",
       issuer: "Digital Egypt Pioneers Initiative (DEPI) – IBM",
       image: "/certificates/Depi Certificate.png",
@@ -62,7 +71,7 @@ export default function Certificates() {
           expertise in data science, machine learning, and AI technologies.
         </motion.p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
           {certificates.map((cert, index) => (
             <motion.div
               key={index}
