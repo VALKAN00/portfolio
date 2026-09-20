@@ -6,7 +6,7 @@ export default function Animation({ children, id }) {
 
   const isInView = useInView(ref, { 
     once: true, 
-    amount: 0.1, // Reduced threshold for mobile
+    amount: "some",
     margin: "0px 0px -100px 0px" // Trigger earlier on mobile
   });
 
